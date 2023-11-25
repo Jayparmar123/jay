@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body style="text-align: center;">
+
+    <div class="container mt-5 mb-5" id="c">
+        <div class="row">
+            <div class="col-md-12 mt-5">
+                <h1 id="c4">What Our Customers Say</h1>
+            </div>
+            <div class="col-md-4 mt-5">
+                <i class="fa-solid fa-quote-left" id="c1" style="color: #2c541d;font-size: 40px;"></i>
+                <p style="color: black;">Fast shipping and excellent customer service. The product was even better than expected. I will definitely be a returning customer.</p>
+                <img src="../images/1.jpeg" alt="" height="40px" width="40px" class="rounded-circle">
+                <p>JENNIFER LEWIS</p>
+            </div>
+            <div class="col-md-4 mt-5">
+                <i class="fa-solid fa-quote-left" id="c2" style="color: #2c541d;font-size: 40px;"></i>
+                <p style="color: black;">Great user experience on your website. I found exactly what I was looking for at a great price. I will definitely be telling my friends.</p>
+                <img src="../images/2.jpeg" alt="" height="40px" width="40px" class="rounded-circle">
+                <p>ALICIA HEART</p>
+            </div>
+            <div class="col-md-4 mt-5">
+                <i class="fa-solid fa-quote-left" id="c3" style="color: #2c541d;font-size: 40px;"></i>
+                <p style="color: black;">Thank you for the excellent shopping experience. It arrived quickly and was exactly as described. I will definitely be shopping with you again in the future.</p>
+                <img src="../images/3.jpeg" alt="" height="40px" width="40px" class="rounded-circle">
+                <p>JUAN CARLOS</p>
+            </div>
+        </div>
+    </div>
+
+    <button style="border: 0px;border-radius: 50px;background: #8e43f0;color: white;height: auto;" onclick="violet()">change color</button>
+
+    <button style="border: 0px;border-radius: 50px;background: #ef4d48;color: white;height: auto;" onclick="orange()">change color</button>
+
+    <button style="border: 0px;border-radius: 50px;background: #f9c349;color: white;height: auto;" onclick="yellow()">change color</button>
+
+    <button style="border: 0px;border-radius: 50px;background: #fa036b;color: white;height: auto;" onclick="pink()">change color</button>
+
+    <button style="border: 0px;border-radius: 50px;background: #2fc1ff;color: white;height: auto;" onclick="blue()">change color</button>
+
+    <br>
+    <br>
+    <br>
+    
+
+    <button style="border: 0px;border-radius: 50px;height: auto;" onclick="px1()">10px</button>
+
+    <button style="border: 0px;border-radius: 50px;height: auto;" onclick="px2()">20px</button>
+
+    <button style="border: 0px;border-radius: 50px;height: auto;" onclick="px3()">30px</button>
+
+    <button style="border: 0px;border-radius: 50px;height: auto;" onclick="px4()">40px</button>
+
+    <button style="border: 0px;border-radius: 50px;height: auto;" onclick="px5()">50px</button>
+
+
+    <br>
+    <br>
+
+
+    <button style="border: 0px;border-radius: 50px;height: auto;" onclick="verdana()">verdana</button>
+
+    <button style="border: 0px;border-radius: 50px;height: auto;" onclick="courier()">courier</button>
+
+    <button style="border: 0px;border-radius: 50px;height: auto;" onclick="cursive()">cursive</button>
+
+    <button style="border: 0px;border-radius: 50px;height: auto;" onclick="Helvetica()">Helvetica</button>
+    
+    <button style="border: 0px;border-radius: 50px;height: auto;" onclick="Roboto()">Roboto</button>
+
+
+
+    <script>
+        function violet(){
+        document.getElementById('c').style.cssText='color: #8e43f0;';
+        document.getElementById('c1').style.cssText='color:#8e43f0;';
+        document.getElementById('c2').style.cssText='color:#8e43f0;';
+        document.getElementById('c3').style.cssText='color:#8e43f0;';
+         }
+
+         function orange(){
+            document.getElementById('c').style.cssText='color: #ef4d48';
+            document.getElementById('c1').style.cssText='color:#ef4d48;';
+            document.getElementById('c2').style.cssText='color:#ef4d48;';
+            document.getElementById('c3').style.cssText='color:#ef4d48;';
+         }
+
+        function yellow(){
+            document.getElementById('c').style.cssText='color: #f9c349';
+            document.getElementById('c1').style.cssText='color:#f9c349;';
+            document.getElementById('c2').style.cssText='color:#f9c349;';
+            document.getElementById('c3').style.cssText='color:#f9c349;';
+        }
+
+        function pink(){
+            document.getElementById('c').style.cssText='color: #fa036b';
+            document.getElementById('c1').style.cssText='color:#fa036b;';
+            document.getElementById('c2').style.cssText='color:#fa036b;';
+            document.getElementById('c3').style.cssText='color:#fa036b;';
+        }
+
+        function blue(){
+            document.getElementById('c').style.cssText='color:#2fc1ff';
+            document.getElementById('c1').style.cssText='color:#2fc1ff;';
+            document.getElementById('c2').style.cssText='color:#2fc1ff;';
+            document.getElementById('c3').style.cssText='color:#2fc1ff;';
+        }
+
+        function px1(){
+            document.getElementById('c').style.cssText='font-size:10px';
+            document.getElementById('c1').style.cssText='font-size:10px';
+            document.getElementById('c2').style.cssText='font-size:10px';
+            document.getElementById('c3').style.cssText='font-size:10px';
+            document.getElementById('c4').style.cssText='font-size:10px';
+        }
+
+        function px2(){
+            document.getElementById('c').style.cssText='font-size:20px';
+            document.getElementById('c1').style.cssText='font-size:20px';
+            document.getElementById('c2').style.cssText='font-size:20px';
+            document.getElementById('c3').style.cssText='font-size:20px';
+            document.getElementById('c4').style.cssText='font-size:20px';
+        }
+
+        function px3(){
+            document.getElementById('c').style.cssText='font-size:30px';
+            document.getElementById('c1').style.cssText='font-size:30px';
+            document.getElementById('c2').style.cssText='font-size:30px';
+            document.getElementById('c3').style.cssText='font-size:30px';
+            document.getElementById('c4').style.cssText='font-size:30px';
+        }
+
+        function px4(){
+            document.getElementById('c').style.cssText='font-size:40px';
+            document.getElementById('c1').style.cssText='font-size:40px';
+            document.getElementById('c2').style.cssText='font-size:40px';
+            document.getElementById('c3').style.cssText='font-size:40px';
+            document.getElementById('c4').style.cssText='font-size:40px';
+        }
+
+        function px5(){
+            document.getElementById('c').style.cssText='font-size:50px';
+            document.getElementById('c1').style.cssText='font-size:50px';
+            document.getElementById('c2').style.cssText='font-size:50px';
+            document.getElementById('c3').style.cssText='font-size:50px';
+            document.getElementById('c4').style.cssText='font-size:50px';
+        }
+
+        function verdana(){
+            document.getElementById('c').style.cssText='font-family:verdana';
+            document.getElementById('c1').style.cssText='font-family:verdana';
+            document.getElementById('c2').style.cssText='font-family:verdana';
+            document.getElementById('c3').style.cssText='font-family:verdana';
+            document.getElementById('c4').style.cssText='font-family:verdana';
+        }
+
+        function courier(){
+            document.getElementById('c').style.cssText='font-family:courier';
+            document.getElementById('c1').style.cssText='font-family:courier';
+            document.getElementById('c2').style.cssText='font-family:courier';
+            document.getElementById('c3').style.cssText='font-family:courier';
+            document.getElementById('c4').style.cssText='font-family:courier';
+        }
+
+        function cursive(){
+            document.getElementById('c').style.cssText='font-family:cursive';
+            document.getElementById('c1').style.cssText='font-family:cursive';
+            document.getElementById('c2').style.cssText='font-family:cursive';
+            document.getElementById('c3').style.cssText='font-family:cursive';
+            document.getElementById('c4').style.cssText='font-family:cursive';
+        }
+
+        function Helvetica(){
+            document.getElementById('c').style.cssText='font-family:Helvetica';
+            document.getElementById('c1').style.cssText='font-family:Helvetica';
+            document.getElementById('c2').style.cssText='font-family:Helvetica';
+            document.getElementById('c3').style.cssText='font-family:Helvetica';
+            document.getElementById('4').style.cssText='font-family:Helvetica';
+        }
+
+        function Roboto(){
+            document.getElementById('c').style.cssText='font-family:Roboto';
+            document.getElementById('c1').style.cssText='font-family:Roboto';
+            document.getElementById('c2').style.cssText='font-family:Roboto';
+            document.getElementById('c3').style.cssText='font-family:Roboto';
+            document.getElementById('c4').style.cssText='font-family:Roboto';
+        }
+
+
+    
+
+    </script>
+    
+</body>
+</html>
